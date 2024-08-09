@@ -24,7 +24,7 @@ def get_data():
 
         print("")
         print(city.lower().title())
-        print('Temperature: ',temperature, '\nConditions: ',conditions, '\nWind Speed: ',wind_speed, '\nHumidity: ',humidity )
+        print(f'Temperature: {temperature}, \nConditions: {conditions} \nWind Speed: {wind_speed} \nHumidity: {humidity}' )
         print("\nThank you for using the program!\n")
         ans = input("Would like to enter anothery city? Please enter Yes or No: ")
         if ans.lower() == 'yes':
